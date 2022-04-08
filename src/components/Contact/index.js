@@ -14,12 +14,16 @@ function ContactForm() {
       
       console.log(formState);
       
+      function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+      }
 
   return (
     <section>
       <h1>Contact me</h1>
       <form id="contact-form">
-        <div>
+      <form id="contact-form" onSubmit={handleSubmit}></form>  <div>
           <label htmlFor="name">Name:</label>
           <input type="text" defaultValue={name} onChange={handleChange} name="name" />
         </div>
