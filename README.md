@@ -28,7 +28,7 @@ To use this application, go to https://hmailahn.github.io/photo-port/. Here you 
 
 ## Screenshot
 
-![image]()
+![image](https://github.com/hmailahn/photo-port/blob/main/src/assets/1.png)
 
 ## Repository
 
